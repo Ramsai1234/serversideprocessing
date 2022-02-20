@@ -99,7 +99,9 @@ def areacalculation(request):
         context["l"] = l
         context["w"] = w
     return render(request,"mathapp/area.html",context)
+  ~~~
 ###  urls.py:
+~~~
 from django.contrib import admin
 from django.urls import path
 from mathapp import views
