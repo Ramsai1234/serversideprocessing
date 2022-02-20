@@ -26,9 +26,6 @@ Add the formula in views.py.
 ### Step 7:
 Link the html document to urls.py
 
-### Step 8:
-Publish the website in the url: http://PunugotiRamsai.student.saveetha.in:8000
-
 ## PROGRAM :
 ## HTML Code:
 ~~~
@@ -42,7 +39,7 @@ Publish the website in the url: http://PunugotiRamsai.student.saveetha.in:8000
     <style>
         body{
             text-align: center;
-            background-color: aqua;
+            background-color:blurywood;
         }
         .maindiv{
             margin-left:400px;
@@ -50,7 +47,7 @@ Publish the website in the url: http://PunugotiRamsai.student.saveetha.in:8000
             border-style: dashed;
             width: 550px;
             height: 300px;
-            background-color: aquamarine;
+            background-color:orange;
         }
         h1{
             text-decoration: underline;
