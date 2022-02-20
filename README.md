@@ -31,7 +31,7 @@ Publish the website in the url: http://PunugotiRamsai.student.saveetha.in:8000
 
 ## PROGRAM :
 ## HTML Code:
-
+~~~
 <!DOCTYPE html>
 <html>
 <head>
@@ -80,8 +80,10 @@ Publish the website in the url: http://PunugotiRamsai.student.saveetha.in:8000
     </div>
 </body>
 </html>
+~~~
 
 ## views.py:
+~~~
 from django.shortcuts import render
 
 def areacalculation(request):
@@ -106,7 +108,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("areaofrectangle/",views.areacalculation,name="areaofrectangle"),
     path("",views.areacalculation,name="areaofrectangleroot")
-]
+ ]
+ ~~~
 ## OUTPUT:
 ![mano1](https://user-images.githubusercontent.com/94269989/154825547-29956e9b-9d99-4c62-ba51-0010811e2d48.png)
 
