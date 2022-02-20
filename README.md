@@ -72,7 +72,7 @@ Link the html document to urls.py
         <br>
         <br>
         <footer>
-            Developed by:Koduru Sanath Kumar Reddy
+            Developed by:P.Ramsai
         </footer>
     </div>
 </body>
